@@ -367,6 +367,7 @@
                 e.preventDefault();
                 var $wrap = $('.acfe-bt');
 
+                
                 if ($wrap.is(':visible')) {
                     $wrap.hide();
                 } else {

@@ -33,11 +33,11 @@ class acfe_assets{
         $min = defined('SCRIPT_DEBUG') && SCRIPT_DEBUG ? '' : '.min';
     
         // register scripts
-        wp_register_script('acf-extended',              acfe_get_url("assets/js/acfe{$min}.js"),                array('acf'),                               $version);
-        wp_register_script('acf-extended-input',        acfe_get_url("assets/js/acfe-input{$min}.js"),          array('acf-extended', 'acf-input'),         $version);
-        wp_register_script('acf-extended-admin',        acfe_get_url("assets/js/acfe-admin{$min}.js"),          array('acf-extended'),                      $version);
-        wp_register_script('acf-extended-field-group',  acfe_get_url("assets/js/acfe-field-group{$min}.js"),    array('acf-extended', 'acf-field-group'),   $version);
-        wp_register_script('acf-extended-ui',           acfe_get_url("assets/js/acfe-ui{$min}.js"),             array('acf-extended'),                      $version);
+        wp_register_script('acf-extended',              acfe_get_url("assets/js/acfe.js"),                array('acf'),                               $version);
+        wp_register_script('acf-extended-input',        acfe_get_url("assets/js/acfe-input.js"),          array('acf-extended', 'acf-input'),         $version);
+        wp_register_script('acf-extended-admin',        acfe_get_url("assets/js/acfe-admin.js"),          array('acf-extended'),                      $version);
+        wp_register_script('acf-extended-field-group',  acfe_get_url("assets/js/acfe-field-group.js"),    array('acf-extended', 'acf-field-group'),   $version);
+        wp_register_script('acf-extended-ui',           acfe_get_url("assets/js/acfe-ui.js"),             array('acf-extended'),                      $version);
     
         // register styles
         wp_register_style('acf-extended',               acfe_get_url("assets/css/acfe{$min}.css"),              array(),                                    $version);
