@@ -16,8 +16,4 @@ define( 'WP_USE_THEMES', true );
 /** Loads the WordPress Environment and Template */
 require __DIR__ . '/wp-blog-header.php';
 
-<<<<<<< HEAD
-echo 'mateusz22';
-=======
-echo 'kubaaa';
->>>>>>> edffd35 (commit)
+echo 'kuba';
