@@ -77,6 +77,7 @@
         onSubmit: function(e, $el) {
 
             acf.lockForm($el);
+            //onSubmit1
 
         },
 
@@ -367,7 +368,7 @@
                 e.preventDefault();
                 var $wrap = $('.acfe-bt');
 
-                
+
                 if ($wrap.is(':visible')) {
                     $wrap.hide();
                 } else {
