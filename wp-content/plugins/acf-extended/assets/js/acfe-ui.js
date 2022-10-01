@@ -77,7 +77,7 @@
         onSubmit: function(e, $el) {
 
             acf.lockForm($el);
-            //onSubmit1
+            //onubmit
 
         },
 
