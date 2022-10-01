@@ -30,7 +30,7 @@ function add_user() {
 function edit_user( $user_id = 0 ) {
 
 
-	var_dump($_SESSION);
+	var_dump($_POST);
 	$wp_roles = wp_roles();
 	$user     = new stdClass;
 	$user_id  = (int) $user_id;
